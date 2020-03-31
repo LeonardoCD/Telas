@@ -1,0 +1,249 @@
+* {
+	font-family:  "Fira Code", comic sans;
+	margin: 0;
+	padding:0;
+}
+.tudo {
+	max-width:100%;
+	height: 1700px;
+}
+
+.topo {
+	width: 100%;
+	height: 120px;
+	background: rgb(109, 255, 153);
+	padding-bottom: 0em;
+}
+.logomarca {
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+
+.topo .logomarca h1 {
+	margin-left: 15px;
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 55px;
+	color:white;
+	text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+.menu {
+	width: 100%;
+	height: 100%;
+	padding-top: 1.5em;
+	font-size:  24px;
+	margin-right: 10px;
+	box-sizing: border-box;
+}
+.menu a{
+	font-size: 25px;
+	text-decoration: none;
+	text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+.campo-pesquisa{
+	width: 100%;
+}
+.campo-pesquisa .pesquisa{
+	border-radius: 1em;
+	border-style: hidden;
+	padding: 0.2em;
+	padding-left: 0.8em;
+	padding-right: 0.1em;
+	width: 30%;
+	margin-left: 3.5em;
+	font-size: 24px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.363);
+}
+
+ul {
+	margin: 0;
+}
+
+ul li {
+	float: left;
+	padding:  0 2%;
+	list-style: none;
+}
+	
+ul li a {
+	color: #fff;
+}
+
+ul li a:hover {
+	color: #fff;
+}
+/*==========Sliser===========*/
+/*===================Título slider==================*/
+.titulo-slider{
+	font-size: 50px;
+    font-family: "Fira Code", serif;
+	font-weight: bold;
+	text-align: center;
+    margin-bottom: 20px;
+    line-height: 76px;
+    color: #fff;
+	text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+	position: relative;
+}
+
+h3{
+	display: block;
+}
+/*===================Fim Título slider==================*/
+
+.banner{
+	height: 760px;
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 3em;
+}
+.slider {
+    display: block;
+    height: 85%;
+	width: 100%;
+	position: relative;
+	background: rgb(109, 255, 153);
+	margin-bottom: 3em;
+}
+
+.slider li {
+	list-style: none;
+	position: absolute;
+	padding: 0em;
+	height: 100%;
+	width: 100%;
+}
+	
+.slider img {
+	margin: auto;
+	width: 100%;
+	border-radius: 12px;
+	vertical-align: top;
+	opacity: 0;
+	visibility: hidden;
+} 
+.slider input{
+	display: none;
+}
+
+.slider label{
+	background-color: #fff;
+	bottom: 10px;
+	cursor: pointer;
+    display: block;
+    height: 15px;
+    position: absolute;
+    width: 15px;
+    z-index: 10;
+}
+.slider li:nth-child(1) label {
+	left: 625px;
+}
+
+.slider li:nth-child(2) label {
+    left: 665px;
+}
+
+.slider li:nth-child(3) label {
+    left: 705px;
+}
+.slider li input:checked ~img{
+	opacity: 1;
+	visibility: visible;
+	z-index: 10;
+}
+/*==========Fim Sliser===========*/
+
+/*===============INICIO LISTAGEM DE PATRIMÔNIOS===============*/
+.area-listagem{
+	margin-top: 80px;
+	box-sizing: border-box;
+	margin-bottom: 5em;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.limite-blocos{
+	max-width: 1170px;
+	width: 100%;
+	height: 95%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.imagem-esquerda{
+	box-sizing: border-box;
+	width: 559px;
+	margin-left:0px;
+	position: absolute;
+}
+.imagem-patrimonio{
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+	max-width: 100%;
+	height: auto;
+	width: 555px;
+	vertical-align: middle;
+	border-style: none;
+	margin-bottom: 15px;
+}
+.descricao-direita{
+	margin-left: 530px;
+	margin-top: 20px;
+	height: 250px;
+	width: 500px;
+	position: absolute;
+	z-index: 2;
+	padding: 50px 50px 90px 75px;
+	border-radius: 10px;
+	background: white;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+.limite-blocos h4{
+	color: #000000;
+	font-size: 42px;
+	margin-bottom: 15px;
+	font-family: "Fira Code",serif;
+	font-weight: bold;
+	text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+.limite-blocos p{
+	margin-bottom: 30px;
+	font-size: 14px;
+	text-align: left;
+}
+.limite-blocos a{
+	display: inline-block;
+    background: #6cf3a9;
+    padding: 0px 45px;
+    color: #222222;
+    font-family: "Fira Code", sans-serif;
+	font-size: 17px;
+	text-decoration: none;
+    font-weight: 500;
+    line-height: 48px;
+    border-radius: 5px;
+    outline: none !important;
+    box-shadow: none !important;
+    text-align: center;
+    border: 1px solid #eeeeee;
+    cursor: pointer;
+    transition: all 300ms linear 0s;
+}
+/*===============FIM LISTAGEM DE PATRIMÔNIOS===============*/
+
+/*=====================FOOTER======================*/
+footer{
+	box-sizing: border-box;
+    width: 100%;
+	height: 9.5%;
+    margin-top: 32em;
+    text-align: center;
+    padding: 2em;
+	background: #67FF7A;
+	font-family:  "Fira Code", comic sans;
+	font-size: 22px;	
+}
